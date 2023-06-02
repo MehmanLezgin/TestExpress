@@ -1,12 +1,12 @@
 const express = require('express');
 
-const app = express();
+const apps = express();
 
-app.get('/', (req, res) => {
+apps.get('/', (req, res) => {
     
     res.send('This is me');
 })
 
-app.listen(process.env.PORT, () => {
+apps.listen(process.env.PORT, () => {
     console.log('App is running!');
 })
