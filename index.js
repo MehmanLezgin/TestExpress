@@ -2,9 +2,10 @@ const express = require('express');
 
 const apps = express();
 
-apps.get('/', (req, res) => {
+apps.get('/', (req, resu) => {
     
-    res.send('This is me');
+    resu.send('This is me');
+    // res.send('This is me');
 })
 console.log('hi');
 
