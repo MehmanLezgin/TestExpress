@@ -3,8 +3,8 @@ const express = require('express');
 const apps = express();
 
 apps.get('/', (req, resu) => {
-    
-    resu.send('This is me');
+    const a = 123+567;
+    resu.send('This is me '+a);
     // res.send('This is me');
 })
 console.log('hi');
