@@ -3,7 +3,7 @@ const express = require('express');
 const apps = express();
 
 apps.get('/', (req, resu) => {
-    const a = 123+567*23.2;
+    const a = 123+567*23.32;
     resu.send('This is me '+a);
     console.log(111);
     // res.send('This is me');
